@@ -1,0 +1,67 @@
+
+@charset "UTF-8";
+
+        body {
+
+            margin: 0;
+
+            font-family: "Lato", sans-serif;
+
+        }
+
+ 
+        .sidebar {
+
+            margin: 0;
+
+            padding: 0;
+
+            width: 100%;
+
+            background-color: #b3e2ff;
+
+            position: fixed;
+
+            left: 0%;
+
+            height: auto;
+
+            overflow: auto;
+
+            margin-top: 0px;
+
+        }
+
+ 
+
+        .sidebar a {
+
+                display: block;
+
+                color: black;
+
+                padding: 10px;
+
+                text-decoration: none;
+
+                float: left;}
+
+ 
+
+                .sidebar a.active {
+
+                    background-color: #0273b9;
+
+                    color: white;
+
+                }
+
+ 
+
+                .sidebar a:hover:not(.active) {
+
+                    background-color: #0273b9;
+
+                    color: white;
+
+                }
